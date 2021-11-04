@@ -10,6 +10,14 @@ https://random-data-api.com/api/computer/random_computer?size=4
 
 <br/>
 
+## Created with 🛠️
+
+* [XCode 13](https://developer.apple.com/xcode/)
+* [Swift 5.5.1](https://swift.org/)
+* [SwiftUI 3](https://developer.apple.com/xcode/swiftui/)
+
+<br/>
+
 ### MODEL
 
 ```json
