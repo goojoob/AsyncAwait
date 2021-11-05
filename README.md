@@ -78,3 +78,5 @@ AsyncImage(url: URL(string: imageURL)) { image in
         .scaleEffect(1.5)
 }
 ```
+
+<br/>
