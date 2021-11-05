@@ -58,3 +58,23 @@ struct Computer: Identifiable, Codable {
 ```swift
 func getNetworkData() async throws -> [Computer]
 ```
+
+<br/>
+
+### ASYNCIMAGE
+
+Image view that asynchronously loads and displays an image.
+
+```swift
+AsyncImage(url: URL(string: imageURL)) { image in
+    image
+        .resizable()
+        .aspectRatio(contentMode: .fit)
+        .frame(width: 200, height: 200)
+        .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
+} placeholder: {
+    ProgressView()
+        .progressViewStyle(.circular)
+        .scaleEffect(1.5)
+}
+```
